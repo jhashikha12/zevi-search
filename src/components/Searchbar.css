@@ -1,0 +1,27 @@
+.searchbar {
+    height: 50px;
+    width: 50%;
+    border:none;
+    border-radius: 15px;
+    outline: none;
+    padding: 0 30px;
+    font-size: 1.2rem;
+    color:darkgray;
+
+}
+::placeholder {
+    color: lightgray;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    color: lightgray;
+}
+.search-icon{
+    margin-left: -50px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border:none;
+    background-color: white;
+}

@@ -1,0 +1,58 @@
+.res{
+    background-color: white;
+    padding:20px;
+}
+.res h2{
+    font-weight: 400;
+    font-size: 2rem;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+  }
+  
+  .product-card {
+    
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .product-image {
+    height: 300px;
+width: 100%;
+object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .product-details {
+    font-weight: 600;
+  }
+  .product-details p{
+    margin: 10px 0 ;
+  }
+ 
+  .filters {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .results{
+    display:flex;
+    justify-content: space-between;
+  }
+
+  
+    #mrp {
+        color: lightgray;
+        font-weight: 100;
+        text-decoration: line-through;
+    }
+    #discount{
+        color:darkcyan;
+        font-weight: 600;
+    }
+    #star{
+        color:gold;
+    }
+  

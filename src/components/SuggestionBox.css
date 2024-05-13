@@ -1,0 +1,31 @@
+.container {
+    width: 60%;
+    background-color:white;
+    margin: 20px auto; 
+    box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.3);
+    padding:10px 30px;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+.images{
+    display:flex;
+    justify-content: space-between;
+    gap:30px;
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+
+.images img{
+    width:100%;
+    border-radius: 5px;
+}
+.image p{
+    margin-top:5px;
+}
+.pop p{
+    font-size: 0.7rem;
+    margin:auto;
+    padding: 2px 0;
+    font-weight: 400;
+
+}
